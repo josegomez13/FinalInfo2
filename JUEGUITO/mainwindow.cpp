@@ -1,8 +1,9 @@
 #include "mainwindow.h"
+#include "ui_mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent)
+mainwindow::mainwindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+    , ui(new Ui::mainwindow)
 {
     controladorEventos =  new QTimer();
     controladorEventos->start(100);
