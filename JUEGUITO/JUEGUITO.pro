@@ -5,10 +5,14 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        nube.cpp \
+        vida.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    nube.h \
+    vida.h
 
 FORMS += \
     mainwindow.ui
