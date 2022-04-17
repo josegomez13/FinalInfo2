@@ -222,6 +222,7 @@ Makefile: ../JUEGUITO/JUEGUITO.pro B:/QT/5.12.2/mingw73_64/mkspecs/win32-g++/qma
 		B:/QT/5.12.2/mingw73_64/mkspecs/features/qt_config.prf \
 		B:/QT/5.12.2/mingw73_64/mkspecs/win32-g++/qmake.conf \
 		B:/QT/5.12.2/mingw73_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		B:/QT/5.12.2/mingw73_64/mkspecs/features/exclusive_builds.prf \
 		B:/QT/5.12.2/mingw73_64/mkspecs/features/toolchain.prf \
 		B:/QT/5.12.2/mingw73_64/mkspecs/features/default_pre.prf \
@@ -400,6 +401,7 @@ B:/QT/5.12.2/mingw73_64/mkspecs/features/qt_functions.prf:
 B:/QT/5.12.2/mingw73_64/mkspecs/features/qt_config.prf:
 B:/QT/5.12.2/mingw73_64/mkspecs/win32-g++/qmake.conf:
 B:/QT/5.12.2/mingw73_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 B:/QT/5.12.2/mingw73_64/mkspecs/features/exclusive_builds.prf:
 B:/QT/5.12.2/mingw73_64/mkspecs/features/toolchain.prf:
 B:/QT/5.12.2/mingw73_64/mkspecs/features/default_pre.prf:

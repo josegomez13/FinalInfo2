@@ -1,15 +1,6 @@
 #ifndef VIDA_H
 #define VIDA_H
-#include <QObject>
-#include <QGraphicsItem>
-#include <QTimer>
-#include <QPixmap>
-#include <QGraphicsPixmapItem>
-#include <QPainter>
-#include <QGraphicsScene>
-#include <QMainWindow>
-#include <QObject>
-#include <QWidget>
+
 
 class Vida: public QObject, public QGraphicsItem
 {
