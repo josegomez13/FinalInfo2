@@ -4,12 +4,14 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        gotitas.cpp \
         main.cpp \
         mainwindow.cpp \
         nube.cpp \
         vida.cpp
 
 HEADERS += \
+    gotitas.h \
     mainwindow.h \
     nube.h \
     vida.h
