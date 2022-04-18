@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        dulces.cpp \
         gotitas.cpp \
         main.cpp \
         mainwindow.cpp \
@@ -11,6 +12,7 @@ SOURCES += \
         vida.cpp
 
 HEADERS += \
+    dulces.h \
     gotitas.h \
     mainwindow.h \
     nube.h \
