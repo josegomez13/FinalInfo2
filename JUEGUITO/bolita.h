@@ -1,4 +1,3 @@
-#ifndef BOLITA_H
 #define BOLITA_H
 #include <QGraphicsItem>
 #include <QPainter>

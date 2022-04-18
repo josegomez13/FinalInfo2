@@ -11,9 +11,7 @@
 #include <QObject>
 #include <QWidget>
 
-class gotitas: public QObject, public QGraphicsItem
-
-{
+class gotitas: public QObject, public QGraphicsItem{
 
 public:
     explicit gotitas(int _x);//Atributos que pose cada gotita
@@ -38,4 +36,4 @@ public:
 
 };
 
-#endif // GOTITAS_H
+#endif

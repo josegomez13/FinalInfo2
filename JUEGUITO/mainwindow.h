@@ -1,8 +1,23 @@
-#ifndef MAINWINDOW_H
 #define MAINWINDOW_H
+#include <QMainWindow>
+#include <QList> // para utilizar el Qlist
+#include <QDebug>// para imprimir mensajes en la terminal
+#include <QMessageBox> // para imprimir mensajes como recuadros
+#include <QVector> // para usar los Qvector
+#include <iostream>//Flujo de entrada y salida para leer los archivos
+#include <fstream> // para los archivos
+#include <QRectF>
+#include <iterator>
+#include <QMessageBox>
+#include <QListWidget>
+#include <nube.h>
+#include <QTimer>
+//#include <QMediaPlayer>
 
-#include <QDialog>
 
+
+#include <QGraphicsScene>
+#include <QGraphicsView>
 // MIS CLASES
 using namespace std;
 
@@ -35,6 +50,7 @@ private:
     QGraphicsScene *scene;
     //void keyPressEvent(QKeyEvent *evento); //reconocer cuando una tecla ha sido presionada
 
-public slots:
+    public
+    mainwindow(QTimer *controladorEventos, bool bandera, Nube *nubePrueba, Ui::MainWindow *ui, QGraphicsScene *scene); slots:
 };
 #endif // MAINWINDOW_H

@@ -1,5 +1,30 @@
-#include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QList>
+#include <vector>
+#include "mainwindow.h"
+#include <QString>
+#include <QMessageBox> // para imprimir los mensajes en recuadro
+#include <QDebug> // para imprimir mensajes
+#include <QtGui>
+#include <QImage>
+#include <stdlib.h>
+#include <QLabel>
+#include <QFile>
+#include <QPixmap>
+#include <time.h>
+//#include <QtWidgets>
+
+#include <QtWidgets>
+//#include <QMediaPlayer>
+//#include <QSound>
+#include <sstream>
+#include <fstream>
+#include <iostream>
+#include <string.h>
+#include <QGraphicsScene>
+#include <QGraphicsItem>
+#include <QGraphicsView>
+#include <dulces.h>
 
 mainwindow::mainwindow(QWidget *parent)
     : QMainWindow(parent)
@@ -35,14 +60,14 @@ mainwindow::mainwindow(QWidget *parent)
     scene->addItem(Obstaculos.back());
 }
 
-MainWindow::~MainWindow()
+mainwindow::~mainwindow()
 {
     delete ui;
 }
 
 
 
-bool MainWindow::EuvalarColision(void)
+bool mainwindow::EuvalarColision(void)
 {
     bool colision = false;
     QList<obstaculo*>:: Iterator it; //itarador para recorrer la lista de obstaculos
@@ -88,3 +113,12 @@ void MainWindow::keyPressEvent(QKeyEvent *evento)
 }
 
 */
+
+
+
+mainwindow::mainwindow(QTimer *controladorEventos, bool bandera, Nube *nubePrueba, Ui::MainWindow *ui, QGraphicsScene *scene) : controladorEventos(controladorEventos),
+    bandera(bandera),
+    nubePrueba(nubePrueba),
+    ui(ui),
+    scene(scene)
+{}
