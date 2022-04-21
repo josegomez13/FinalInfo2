@@ -1,0 +1,10 @@
+release/bolita.o
+release/dulces.o
+release/gotitas.o
+release/main.o
+release/mainwindow.o
+release/nube.o
+release/vida.o
+release/qrc_imagenes.o
+release/moc_mainwindow.o
+release/moc_nube.o

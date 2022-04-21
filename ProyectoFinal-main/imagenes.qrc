@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Imagenes/gordo-sprite.png</file>
+        <file>Backgrounds games/nube.png</file>
+        <file>Backgrounds games/dulces.png</file>
+        <file>Backgrounds games/nivel1.png</file>
+        <file>Backgrounds games/fondo2.PNG</file>
+        <file>Backgrounds games/gotica.png</file>
+        <file>Backgrounds games/gorditocaido.PNG</file>
+        <file>Backgrounds games/patineta_preview_rev_2.png</file>
+        <file>Backgrounds games/avion_preview_rev_1.png</file>
+        <file>Backgrounds games/agachado_preview_rev_2.png</file>
+        <file>Backgrounds games/titulo.png</file>
+        <file>Backgrounds games/ganaste.png</file>
+        <file>Backgrounds games/historia1.png</file>
+        <file>Backgrounds games/imagen.png</file>
+        <file>Backgrounds games/escenariocompleto.png</file>
+        <file>Backgrounds games/fondoul.png</file>
+        <file>Backgrounds games/fon2.png</file>
+        <file>Backgrounds games/cuadrotitulo.png</file>
+        <file>Backgrounds games/titul.png</file>
+        <file>Backgrounds games/Instrucciones.png</file>
+        <file>Backgrounds games/loggin.png</file>
+        <file>Backgrounds games/border-image.png</file>
+        <file>Backgrounds games/gorda.png</file>
+        <file>Backgrounds games/hidtoria.png</file>
+    </qresource>
+</RCC>
